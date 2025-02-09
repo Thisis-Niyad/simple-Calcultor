@@ -1,0 +1,127 @@
+@import url("https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css");
+body {
+  margin: auto;
+}
+
+input:focus {
+  outline: none;
+  font-size: xxx-large !important;
+}
+
+#history {
+  width: 100%;
+  position: absolute;
+  bottom: 80vh;
+  color: #817f7f;
+  font-size: x-large;
+  text-align: right;
+}
+
+div#textareas {
+  position: absolute;
+  bottom: 60vh;
+  width: 100%;
+}
+div#textareas:focus {
+  border: none;
+}
+
+input#textfeild {
+  width: 100%;
+  font-weight: 100;
+  text-align: right;
+  font-size: xxx-large;
+  border: 0;
+}
+
+#result {
+  width: 100%;
+  font-weight: 100;
+  text-align: right;
+  font-size: xx-large;
+  border: 0;
+}
+
+table {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 60vh;
+  border-top: 2px solid;
+  border-image-source: linear-gradient(90deg, rgb(217, 219, 219) 0%, rgb(147, 150, 150) 50%, rgb(217, 219, 219) 100%);
+  border-image-slice: 1;
+}
+
+button {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  justify-items: center;
+  background-color: rgb(233, 255, 255);
+  border: 0;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.toggle.dis {
+  animation: scale-out-hor-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+@keyframes scale-out-hor-left {
+  0% {
+    transform: scaleX(1);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0);
+    transform-origin: 0 0;
+    opacity: 1;
+    display: none;
+  }
+}
+.toggle {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    color: #fff;
+  }
+}
+.color {
+  color: #ed6632;
+  font-weight: bold;
+  font-size: large;
+}
+
+td {
+  text-align: center;
+  background-color: rgb(233, 255, 255);
+}
+
+.coloring {
+  border-color: rgb(233, 255, 255);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-weight: bold;
+  font-size: large;
+  background-color: #ed6632;
+  color: #fff;
+}
+
+.flipforward {
+  animation: flip-diagonal-2-br 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+@keyframes flip-diagonal-2-br {
+  0% {
+    transform: rotate3d(-1, 1, 0, 0deg);
+  }
+  100% {
+    transform: rotate3d(-1, 1, 0, 180deg);
+  }
+}/*# sourceMappingURL=cal.css.map */

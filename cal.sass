@@ -1,0 +1,136 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css')
+body
+    margin: auto
+input
+    &:focus
+        outline: none
+        font-size: xxx-large !important
+#history
+    width: 100%
+    position: absolute
+    bottom: 80vh
+    color: #817f7f
+    font-size: x-large
+    text-align: right
+div#textareas
+    position: absolute
+    bottom: 60vh
+    width: 100%
+    &:focus
+        border: none
+input#textfeild
+    width: 100%
+    font-weight: 100
+    text-align: right
+    font-size: xxx-large
+    border: 0
+#result
+    width: 100%
+    font-weight: 100
+    text-align: right
+    font-size: xx-large
+    border: 0
+table
+    width: 100%
+    position: absolute
+    bottom: 0
+    height: 60vh
+    border-top: 2px solid
+    border-image-source: linear-gradient(90deg, rgba(217,219,219,1) 0%, rgba(147,150,150,1) 50%, rgba(217,219,219,1) 100%)
+    border-image-slice: 1
+button
+    width: -webkit-fill-available
+    height: -webkit-fill-available
+    justify-items: center
+    background-color: rgb(233,456,765)
+    border: 0
+    font-size: medium
+    font-weight: bold
+.toggle.dis
+    -webkit-animation: scale-out-hor-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both
+    animation: scale-out-hor-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both
+@-webkit-keyframes scale-out-hor-left
+  0% 
+    -webkit-transform: scaleX(1)
+    transform: scaleX(1)
+    -webkit-transform-origin: 0 0
+    transform-origin: 0 0
+    opacity: 1
+  100% 
+    -webkit-transform: scaleX(0)
+    transform: scaleX(0)
+    -webkit-transform-origin: 0 0
+    transform-origin: 0 0
+    opacity: 1
+    display: none
+    color: #fff
+@keyframes scale-out-hor-left
+    0%
+        -webkit-transform: scaleX(1)
+        transform: scaleX(1)
+        -webkit-transform-origin: 0
+        transform-origin: 0 0
+        opacity: 1
+    100%
+        -webkit-transform: scaleX(0)
+        transform: scaleX(0)
+        -webkit-transform-origin: 0 0
+        transform-origin: 0 0
+        opacity: 1
+        display: none
+.toggle
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+@-webkit-keyframes slide-in-left
+  0% 
+    -webkit-transform: translateX(-1000px)
+    transform: translateX(-1000px)
+    opacity: 0
+  100% 
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+    opacity: 1
+    color: #fff
+@keyframes slide-in-left
+    0%
+        -webkit-transform: translateX(-1000px)
+        transform: translateX(-1000px)
+        opacity: 0
+    100%
+        -webkit-transform: translateX(0)
+        transform: translateX(0)
+        opacity: 1
+        color: #fff
+.color
+    color: #ed6632
+    font-weight: bold
+    font-size: large
+td
+    text-align: center
+    background-color: rgb(233,456,765)
+.coloring
+    border-color: rgb(233,456,765)
+    border-radius: 50%
+    width: 28px
+    height: 28px
+    font-weight: bold
+    font-size: large
+    background-color: #ed6632
+    color: #fff
+.flipforward
+    -webkit-animation: flip-diagonal-2-br 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both
+    animation: flip-diagonal-2-br 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both
+@-webkit-keyframes flip-diagonal-2-br
+  0% 
+    -webkit-transform: rotate3d(-1, 1, 0, 0deg)
+    transform: rotate3d(-1, 1, 0, 0deg)
+  100% 
+    -webkit-transform: rotate3d(-1, 1, 0, 180deg)
+    transform: rotate3d(-1, 1, 0, 180deg)
+@keyframes flip-diagonal-2-br
+    0%
+        -webkit-transform: rotate3d(-1, 1, 0, 0deg)
+        transform: rotate3d(-1, 1, 0, 0deg)
+    100%
+        -webkit-transform: rotate3d(-1, 1, 0, 180deg)
+        transform: rotate3d(-1, 1, 0, 180deg)
