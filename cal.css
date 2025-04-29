@@ -20,7 +20,7 @@ input:focus {
 div#textareas {
   position: absolute;
   bottom: 60vh;
-  width: 100%;
+  width: 99%;
 }
 div#textareas:focus {
   border: none;
@@ -58,8 +58,8 @@ button {
   justify-items: center;
   background-color: rgb(233, 255, 255);
   border: 0;
-  font-size: medium;
-  font-weight: bold;
+  font-size: 2rem;
+  margin: auto;
 }
 
 .toggle.dis {
@@ -94,8 +94,7 @@ button {
 }
 .color {
   color: #ed6632;
-  font-weight: bold;
-  font-size: large;
+  font-size: 2rem;
 }
 
 td {
@@ -106,10 +105,10 @@ td {
 .coloring {
   border-color: rgb(233, 255, 255);
   border-radius: 50%;
-  width: 28px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
   font-weight: bold;
-  font-size: large;
+  font-size: 2rem;
   background-color: #ed6632;
   color: #fff;
 }
