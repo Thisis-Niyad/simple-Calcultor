@@ -109,8 +109,8 @@ function factorial(n) {
 
 
 function display(val) {
-    document.getElementById("textfeild").setAttribute("style", 'font-size: xxx-large;')
-    document.getElementById("result").setAttribute("style", 'font-size: xx-large;')
+    document.getElementById("textfeild").setAttribute("style", 'font-size: 2.5rem;')
+    document.getElementById("result").setAttribute("style", 'font-size: 1.7rem;')
     document.getElementById("textfeild").value += val;
     check();
 }
@@ -123,9 +123,9 @@ function eva() {
 
 
     let A = document.getElementById("textfeild");
-    A.setAttribute("style", 'font-size: xx-large;');
+    A.setAttribute("style", 'font-size: 2rem;');
     let B = document.getElementById("result");
-    B.setAttribute("style", 'font-size: xxx-large;');
+    B.setAttribute("style", 'font-size: 2.5rem;');
     let C = document.getElementById("history");
     C.innerText = A.value + B.innerText;
     check();
